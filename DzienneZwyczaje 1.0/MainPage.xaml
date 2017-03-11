@@ -1,0 +1,100 @@
+﻿<Page
+    x:Class="DzienneZwyczaje_1._0.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DzienneZwyczaje_1._0"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:valueconverter="using:DzienneZwyczaje_1._0.Konwerter"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.Resources>
+        <valueconverter:CzyKompletneBool x:Key="CzyKompletneBool"/>
+        <valueconverter:KompletneDni x:Key="KompletneDni"/>
+
+    </Page.Resources>
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton FontSize="10" Icon="Add" Label="Dodaj" Name="DodajZwyczaj" Click="DodajZwyczaj_Click"/>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <ScrollViewer>
+        <Grid Background="DodgerBlue">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70" />
+                <RowDefinition Height="40" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Rectangle Fill="MidnightBlue" Grid.Row="0" />
+            <Rectangle Fill="Lime" Grid.Row="1" />
+            <TextBlock FontWeight="Bold" Grid.Row="0" FontSize="36" Margin="87,10,20,0"  Text="Dzienne zwyczaje" VerticalAlignment="Top" Height="80" Grid.RowSpan="2" />
+            <MediaElement x:Name="ClickDzwiek" 
+                      
+                      Source="/Assets/Click.mp3"
+                      AutoPlay="False"
+                       
+                      />
+            <TextBlock Grid.ColumnSpan="2" FontStyle="Italic" FontWeight="SemiBold" Grid.Row="1" FontSize="16" Margin="10,10,10,0"  Text="Śledź postęp w utrzymywaniu nowych nawyków!" Width="380" Height="30" VerticalAlignment="Top"/>
+
+
+            <Grid Grid.Row="2" Margin="20,20,20,0">
+
+                <Grid.Resources>
+                    <DataTemplate x:Name="dataTemplate">
+                        <StackPanel Orientation="Vertical">
+
+                            <TextBlock x:Name="NazwaTextBlock" Text="{Binding Nazwa}" FontSize="26" FontStyle="Italic" FontWeight="Bold" Foreground="#FF020000"/>
+                            <TextBlock x:Name="OpisTextBlock" Text="{Binding Opis}"  FontSize="16"  FontWeight="Bold"></TextBlock>
+
+                            <Button  Name="UkonczoneBtn"
+                                  
+                                Content="Zrobiłem to dziś !"
+                                Command="{Binding KompletnaKomenda}"
+                                CommandParameter="{Binding}"
+                                
+                                Background="Lime"
+                                IsEnabled="{Binding Daty,Converter={StaticResource CzyKompletneBool}}" Click="UkonczoneBtn_Click" HorizontalAlignment="Stretch" Width="Auto" Height="Auto"
+                                />
+
+                            <Button Name="UsunBtn"
+                                      
+                                Content="Usuń zadanie"
+                                Command="{Binding UsunZwyczaj}"
+                                    CommandParameter="{Binding}"
+                                Background="Red" Click="UsunBtn_Click" HorizontalAlignment="Stretch" Width="Auto" Height="Auto" 
+                               
+                                />
+
+
+                            <ProgressBar Value="{Binding Daty, Converter={StaticResource KompletneDni}}"
+                                     Background="AntiqueWhite"
+                                         Foreground="Lime"
+                                         Maximum="{Binding Max}"
+                                     Minimum="0"/>
+                            <TextBlock FontWeight="Bold" FontSize="12" Text="Ilość dni, w których udało Ci się utrzymać nawyk:" Canvas.ZIndex="-7" />
+                            <TextBlock FontWeight="Bold" FontSize="12" Text="{Binding Daty, Converter={StaticResource KompletneDni}}" />
+                            <TextBlock FontWeight="Bold" FontSize="12" Text="Przez tyle dni chcesz utrzymać nawyk:" />
+                            <TextBlock FontWeight="Bold" FontSize="12" Text="{Binding Max}" />
+                        </StackPanel>
+                    </DataTemplate>
+                </Grid.Resources>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="0*"/>
+                </Grid.ColumnDefinitions>
+
+                <ItemsControl x:Name="itemsControl" 
+                      ItemsSource="{Binding}" 
+                      ItemTemplate="{StaticResource dataTemplate}"/>
+
+            </Grid>
+            <Image Source="/Assets/Logook.png" HorizontalAlignment="Left" Height="50" Margin="10,10,0,0" VerticalAlignment="Top" Width="48" RenderTransformOrigin="0.596,0.517"/>
+
+
+
+        </Grid>
+    </ScrollViewer>
+
+</Page>

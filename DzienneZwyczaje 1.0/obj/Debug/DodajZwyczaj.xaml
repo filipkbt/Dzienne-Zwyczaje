@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="DzienneZwyczaje_1._0.DodajZwyczaj"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DzienneZwyczaje_1._0"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="DodgerBlue">
+        <MediaElement x:Name="ClickDzwiek" 
+                      
+                      Source="/Assets/Click.mp3"
+                      AutoPlay="False"
+                      />
+        <TextBox x:Name="NazwaTextBox" HorizontalAlignment="Left" Margin="34,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="332"/>
+        <TextBlock FontSize="25" HorizontalAlignment="Left" Margin="34,51,0,0" TextWrapping="Wrap" Text="Nazwa Zwyczaju" VerticalAlignment="Top"/>
+        <TextBox x:Name="OpisTextBox" HorizontalAlignment="Left" Margin="34,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="125" Width="332"/>
+        <TextBlock FontSize="25" HorizontalAlignment="Left" Margin="34,130,0,0" TextWrapping="Wrap" Text="Opis Zwyczaju" VerticalAlignment="Top"/>
+
+       
+
+        <Button x:ConnectionId='1' x:Name="dodajBtn" Content="Dodaj" HorizontalAlignment="Left" Margin="257,438,0,0" VerticalAlignment="Top"                        />
+        <Button x:ConnectionId='2' x:Name="powrotBtn" Content="Wróć" HorizontalAlignment="Left" Margin="34,438,0,0" VerticalAlignment="Top"                         RenderTransformOrigin="0.42,0.98" />
+        <TextBlock FontSize="24" HorizontalAlignment="Left" Margin="34,303,0,0" TextWrapping="Wrap" Text="Ile dni masz zamiar codziennie realizować swój nowy zwyczaj?" VerticalAlignment="Top" Width="332"/>
+        <ComboBox x:Name="maxComboBox" HorizontalAlignment="Center" Margin="34,356,246,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.507,0.789"/>
+
+    </Grid>
+
+
+</Page>
+
