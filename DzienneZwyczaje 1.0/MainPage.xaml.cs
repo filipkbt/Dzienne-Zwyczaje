@@ -26,16 +26,12 @@ namespace DzienneZwyczaje_1._0
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        
-       
+
+
         public MainPage()
         {
-           
-
             this.InitializeComponent();
-
             this.NavigationCacheMode = NavigationCacheMode.Required;
-            
         }
 
         /// <summary>
@@ -45,29 +41,15 @@ namespace DzienneZwyczaje_1._0
         /// This parameter is typically used to configure the page.</param>
         protected async override void OnNavigatedTo(NavigationEventArgs e)
         {
-
-
-            var zwyczaje = await App.ModelDanych.PobierzZwyczaje();
-            
-            this.DataContext = zwyczaje;
-         
-
-          
+          var zwyczaje = await App.ModelDanych.PobierzZwyczaje();
+          this.DataContext = zwyczaje;
         }
-
-      
+              
         private void DodajZwyczaj_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(DodajZwyczaj));
             ClickDzwiek.Play();
-
-            
         }
-
-       
-     
-
-      
 
         private void UkonczoneBtn_Click(object sender, RoutedEventArgs e)
         {

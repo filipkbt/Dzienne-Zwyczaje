@@ -17,10 +17,7 @@ namespace DzienneZwyczaje_1._0.Konwerter
             if (daty.Contains(DateTime.Today))
             {
                 return false;
-               
             }
-
-
             else
                 return true;
         }

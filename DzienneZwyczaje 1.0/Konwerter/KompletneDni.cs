@@ -13,11 +13,9 @@ namespace DzienneZwyczaje_1._0.Konwerter
     {
         public object Convert(object value, Type targetType, object parameter, string language)
         {
-
                 ObservableCollection<DateTime> Daty = (ObservableCollection<DateTime>)value;
 
-                return Daty.Count;
-           
+                return Daty.Count;           
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, string language)

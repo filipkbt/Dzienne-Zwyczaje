@@ -38,8 +38,6 @@ namespace DzienneZwyczaje_1._0
             this.InitializeComponent();
             this.Suspending += this.OnSuspending;
             ModelDanych = new ZrodloDanych();
-
-            
         }
 
         /// <summary>

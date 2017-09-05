@@ -34,11 +34,7 @@ namespace DzienneZwyczaje_1._0
         /// </summary>
         /// <param name="e">Event data that describes how this page was reached.
         /// This parameter is typically used to configure the page.</param>
-        protected override void OnNavigatedTo(NavigationEventArgs e)
-        {
-            
-        }
-
+        
         private void LadujComboBox()
         {
             for (int i = 1; i <= 365; i++)
@@ -54,10 +50,7 @@ namespace DzienneZwyczaje_1._0
             }
             else
             {
-                
                 MessageDialog msgbox = new MessageDialog("Wypełnij pola z nazwą zwyczaju oraz ilością dni !","Nie wypełniłeś poprawnie pól.");
-              
-             
                 msgbox.ShowAsync();
             }
 
@@ -69,6 +62,6 @@ namespace DzienneZwyczaje_1._0
             ClickDzwiek.Play();
         }
 
-       
+
     }
 }

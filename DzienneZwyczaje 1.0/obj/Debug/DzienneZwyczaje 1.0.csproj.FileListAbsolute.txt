@@ -35,3 +35,40 @@ c:\users\filip\documents\visual studio 2015\Projects\DzienneZwyczaje 1.0\Dzienne
 c:\users\filip\documents\visual studio 2015\Projects\DzienneZwyczaje 1.0\DzienneZwyczaje 1.0\obj\Debug\qualifiers.txt.intermediate
 c:\users\filip\documents\visual studio 2015\Projects\DzienneZwyczaje 1.0\DzienneZwyczaje 1.0\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 c:\users\filip\documents\visual studio 2015\Projects\DzienneZwyczaje 1.0\DzienneZwyczaje 1.0\obj\Debug\ProjectArchitectures.txt
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\bin\Debug\App.xbf
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\bin\Debug\DodajZwyczaj.xbf
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\bin\Debug\MainPage.xbf
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\bin\Debug\DzienneZwyczaje 1.0.xr.xml
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\bin\Debug\DzienneZwyczaje 1.0.exe
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\bin\Debug\DzienneZwyczaje 1.0.pdb
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\bin\Debug\resources.pri
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\bin\Debug\AppxManifest.xml
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\bin\Debug\DzienneZwyczaje 1.0.build.appxrecipe
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\App.g.i.cs
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\App.g.cs
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\DodajZwyczaj.g.i.cs
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\DodajZwyczaj.g.cs
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\MainPage.g.i.cs
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\MainPage.g.cs
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\App.xaml
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\DodajZwyczaj.xaml
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\MainPage.xaml
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\App.xbf
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\DodajZwyczaj.xbf
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\MainPage.xbf
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\DzienneZwyczaje 1.0.exe
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\DzienneZwyczaje 1.0.pdb
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\priconfig.xml
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\priconfig.xml.intermediate
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\layout.resfiles
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\layout.resfiles.intermediate
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\resources.resfiles
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\resources.resfiles.intermediate
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\pri.resfiles
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\pri.resfiles.intermediate
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\qualifiers.txt
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Filip\Documents\GitHub\Dzienne-Zwyczaje\DzienneZwyczaje 1.0\obj\Debug\ProjectArchitectures.txt

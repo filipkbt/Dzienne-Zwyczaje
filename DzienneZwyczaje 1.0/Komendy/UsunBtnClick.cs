@@ -20,7 +20,6 @@ namespace DzienneZwyczaje_1._0.Komendy
         public void Execute(object parameter)
         {
             App.ModelDanych.UsunZwyczaj((Zwyczaj)parameter);
-         
         }
     }
 }

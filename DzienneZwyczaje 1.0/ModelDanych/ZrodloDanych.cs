@@ -17,7 +17,6 @@ namespace DzienneZwyczaje_1._0.ModelDanych
 
     public class Zwyczaj : INotifyPropertyChanged
     {
-        
         public int ID { get; set; }
         public string Nazwa { get; set; }
         public string Opis { get; set; }
@@ -36,15 +35,12 @@ namespace DzienneZwyczaje_1._0.ModelDanych
             Daty = new ObservableCollection<DateTime>();
         }
 
-       
-
         public void DodajDate()
         {
             Daty.Add(DateTime.Today);
             NotifyPropertyChanged("Daty");
         }
 
-      
         public event PropertyChangedEventHandler PropertyChanged;
 
         private void NotifyPropertyChanged(string propertyName)
@@ -63,7 +59,7 @@ namespace DzienneZwyczaje_1._0.ModelDanych
         {
             _zwyczaje = new ObservableCollection<Zwyczaj>();
         }
-        
+
         public async Task<ObservableCollection<Zwyczaj>> PobierzZwyczaje()
         {
             await LadowanieDanych();
@@ -129,8 +125,6 @@ namespace DzienneZwyczaje_1._0.ModelDanych
             int index = _zwyczaje.IndexOf(zwyczaj);
             _zwyczaje[index].DodajDate();
             await ZapiszDaneAsync();
-           
-            
         }
     }
 }
